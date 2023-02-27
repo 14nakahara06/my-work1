@@ -1,0 +1,65 @@
+@import url(./default.css);
+@import url(./fonts.css);
+
+
+header{
+    width: 100%;
+    background-image: url(../img/imgBackground1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 22px 0 99px 0;
+    color: #fff;
+    margin-bottom: 160px;
+}
+
+.main-menu{
+    margin-bottom: 150px;
+}
+
+nav{
+    width: 18%;
+}
+
+nav a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    color: #dd9428;
+}
+
+header .vertical-container h1{
+    font-family: 'Playfair Display';
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 95px;
+    margin-bottom: 50px;
+}
+
+header .vertical-container p{
+    width: 70%;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+.horisontal-container .btns{
+    width: 90%;
+    margin-bottom: 120px;
+}
+
+.btns .btn{
+    color: black;
+    background-color: #dd9428;
+    border: 1px solid transparent;
+}
+
+.btns .btn:hover{
+    color:#dd9428;
+    background-color: transparent;
+    border: 1px solid #dd9428;
+}

@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Montserrat';
+}
+
+.horisontal-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vertical-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wrapper-big{
+    width: 87%;
+    margin: 0 auto;
+}
+
+.btn{
+    padding: 25px 46px;
+    border-radius: 38px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.le {
+    margin: 0 1190px 0 0px;
+    margin-left: 15px ;
+}
+
+.pp {
+   margin: 130px 0px 0px 190px;
+}
+
+.horisontal-containerrr{
+    margin: 30px 100px 0 200px;
+}
+
+.horisontal-containerr{
+    width: 300px;
+    height: 300px;
+    margin: 1000px 100px 0 100px ;
+}
